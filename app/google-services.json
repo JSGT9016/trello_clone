@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "732502072336",
+    "project_id": "storymanagapp",
+    "storage_bucket": "storymanagapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:732502072336:android:f00b7f6242951d1be43e95",
+        "android_client_info": {
+          "package_name": "com.example.projectmangapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "732502072336-3mg4ubm0in5tmi70rmqjsai087oh8alc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1hvlwXNdPS5ciYAtgIV8VT6tSFddIkvw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "732502072336-3mg4ubm0in5tmi70rmqjsai087oh8alc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

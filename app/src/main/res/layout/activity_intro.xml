@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background5"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context=".activities.IntroActivity">
+
+
+  <TextView
+      android:id="@+id/appTitleTextView"
+      android:layout_width="wrap_content"
+      android:layout_height="0dp"
+      android:layout_margin="10dp"
+      android:layout_weight="10"
+      android:text="¡Bienvenido!"
+      android:gravity="center"
+      android:textColor="@color/white"
+      android:textSize="@dimen/splash_screen_title_text_size"
+      android:textStyle="bold" />
+
+  <ImageView
+      android:id="@+id/imageView"
+      android:layout_width="387dp"
+      android:layout_height="0dp"
+      android:layout_weight="50"
+      android:layout_marginTop="10dp"
+      android:contentDescription="Imagen desconocida"
+      android:src="@drawable/users_reg" />
+
+  <TextView
+      android:id="@+id/textView3"
+      android:layout_width="392dp"
+      android:layout_height="0dp"
+      android:layout_marginStart="10dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginEnd="10dp"
+      android:layout_weight="5"
+      android:gravity="center"
+      android:lineSpacingExtra="5dp"
+      android:text="@string/empezemos_title"
+      android:textColor="@color/white"
+      android:textSize="25dp"
+      android:textStyle="bold" />
+
+  <TextView
+      android:id="@+id/textView2"
+      android:layout_width="392dp"
+      android:layout_height="0dp"
+      android:layout_marginStart="10dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginEnd="10dp"
+      android:layout_weight="15"
+      android:gravity="center"
+      android:lineSpacingExtra="5dp"
+      android:text="@string/intro"
+      android:textColor="#9EFFFFFF"
+      android:textColorHint="#666666"
+      android:textSize="12dp" />
+
+  <Button
+      android:id="@+id/button_sign_in"
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="8"
+      android:layout_gravity="center"
+      android:layout_marginStart="10dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginEnd="10dp"
+      android:background="@drawable/shape_button_rounded"
+      android:foreground="?attr/selectableItemBackground"
+      android:gravity="center"
+      android:paddingTop="10dp"
+      android:paddingBottom="10dp"
+      android:text="Iniciar Sesion"
+      android:textColor="@color/white"
+      android:textSize="10dp"/>
+
+  <Button
+      android:id="@+id/button_sign_up"
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="8"
+      android:layout_gravity="center"
+      android:layout_marginStart="10dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginEnd="10dp"
+      android:background="@drawable/white_shape_button_rounded"
+      android:foreground="?attr/selectableItemBackground"
+      android:gravity="center"
+      android:paddingTop="10dp"
+      android:paddingBottom="10dp"
+      android:text="Registrarse"
+      android:textColor="#0B616D"
+      android:textSize="10dp"/>
+</LinearLayout>

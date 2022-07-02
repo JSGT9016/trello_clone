@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">ProjectMangApp</string>
+    <string name="empezemos_title">¡Empezemos!</string>
+
+    <string name="sign_up_description_text">Ingresa tu nombre, correo y contraseña para poder comenzar a leer y compartir historias con otros usuarios!</string>
+    <string name="name">Nombre</string>
+    <string name="password">Contraseña</string>
+    <string name="Email">E-Mail</string>
+    <string name="sign_up">Registrate!</string>
+    <string name="sign_in">Ingresa!</string>
+    <string name="sig_in_description">Si ya tienes cuenta, ingresa tu correo y contraseña para poder comenzar a leer y compartir historias!</string>
+    <string name="sign_in_btn">Iniciar sesión</string>
+    <string name="please_wait">Por favor espera..</string>
+    <string name="nav_my_profile">Mi Perfil</string>
+    <string name="nav_sign_out">Terminar sesion</string>
+
+    <string name="mobile">Mobile</string>
+    <string name="update">Actualizar</string>
+    <string name="my_profile">Mi Perfil</string>
+    <string name="my_profile_title">Mi Perfil.</string>
+
+    <string name="create_board_tittle">Crear Tablero</string>
+    <string name="create">CREAR</string>
+    <string name="board_name">Nombre tablero</string>
+
+    <string name="no_board_available">Aun no hay tableros creados...</string>
+    <string name="add_list">Agregar Lista</string>
+
+    <string name="members">Miembros tarea</string>
+
+    <string name="add_member">Agregar socio</string>
+    <string name="cancel">Cancelar</string>
+    <string name="add">Agregar</string>
+    <string name="search_member">Buscar socio</string>
+
+    <string name="label_color">Color Etiqueta</string>
+    <string name="select_color">Seleccionar Color</string>
+    <string name="select_members">Seleccionar Socios</string>
+    <string name="due_date">Fecha Limite</string>
+    <string name="select_due_date">Seleccionar Fecha Limite</string>
+
+    <string name="delete_card">Borrar tarjeta</string>
+    <string name="get_confirmation_message_to_delete_card">¿Estas seguro de eliminar la carta \'%1$s\'?</string>
+    <string name="alert">Alerta</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+
+    <string name="str_select_label_color">Seleccionar Color Etiqueta</string>
+    <string name="intro">Esta es una aplicación donde podrás leer historias cortas, comentarlas y calificarlas. Además, podrás escribir tus propias historias para que otros las puedan leer y comentar. ¿Qué esperas!? Únete.</string>
+    <string name="default_notification_channel_id">myapp_channel_id_notification</string>
+
+</resources>
